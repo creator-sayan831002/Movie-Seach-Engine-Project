@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Senema - Movie Search Engine</title>
+
+```
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+```
+
+</head>
+
+<body>
+
+```
+<!-- ================= NAVBAR ================= -->
+
+<nav class="navbar">
+
+    <div class="logo">
+
+        <div class="logo-circle">
+            <i class="fa-solid fa-film"></i>
+        </div>
+
+        <h2>Senema</h2>
+
+    </div>
+
+    <div class="search-container">
+
+        <input
+            type="text"
+            id="searchInput"
+            placeholder="Search movies...">
+
+        <button id="searchBtn">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+
+    </div>
+
+    <div class="nav-buttons">
+
+        <button id="darkModeBtn">
+            <i class="fa-solid fa-moon"></i>
+        </button>
+
+        <button id="watchlistBtn">
+            ⭐ Watchlist
+        </button>
+
+    </div>
+
+</nav>
+
+<!-- ================= HERO SECTION ================= -->
+
+<section class="hero">
+
+    <div class="hero-left">
+
+        <h1>
+            Most Complete <br>
+            Movie Information <br>
+            Search Engine
+        </h1>
+
+    </div>
+
+    <div class="hero-right">
+
+        <p>
+            Discover thousands of movies with ratings,
+            genres, cast information, trailers and
+            personalized watchlists.
+        </p>
+
+        <p>
+            Search, explore and save your favorite
+            movies all in one place.
+        </p>
+
+    </div>
+
+</section>
+
+<!-- ================= MOVIES SECTION ================= -->
+
+<section class="movies-section">
+
+    <div class="section-header">
+
+        <h2>Popular Movies</h2>
+
+        <button id="showWatchlist">
+            My Watchlist
+        </button>
+
+    </div>
+
+    <div
+        class="movies-container"
+        id="moviesContainer">
+
+        <!-- Movies generated dynamically by JavaScript -->
+
+    </div>
+
+</section>
+
+<!-- ================= MOVIE DETAILS MODAL ================= -->
+
+<div
+    class="modal"
+    id="movieModal">
+
+    <div class="movie-modal-content">
+
+        <span
+            class="close"
+            id="closeMovie">
+            &times;
+        </span>
+
+        <img
+            id="moviePoster"
+            src=""
+            alt="Movie Poster">
+
+        <h2 id="movieTitle"></h2>
+
+        <p id="movieYear"></p>
+
+        <p id="movieGenre"></p>
+
+        <p id="movieDescription"></p>
+
+        <div class="modal-buttons">
+
+            <button id="watchTrailer">
+                ▶ Watch Trailer
+            </button>
+
+            <button id="addToWatchlist">
+                ⭐ Add To Watchlist
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <h3>🎬 Senema</h3>
+
+    <p>
+        Most Complete Movie Information Search Engine
+    </p>
+
+    <p>
+        Search • Discover • Watch • Save
+    </p>
+
+</footer>
+
+<!-- ================= SCRIPT ================= -->
+
+<script src="script.js"></script>
+```
+
+</body>
+</html>
