@@ -1,4 +1,4 @@
-# 🎬 Senema – Movie Search Engine
+# Senema – Movie Search Engine
 
 Senema is a modern and responsive Movie Search Engine built using HTML, CSS, and JavaScript. It provides users with an interactive platform to explore movies, view detailed information, watch trailers, and create a personal watchlist. The project focuses on delivering a clean user interface, smooth user experience, and dynamic movie browsing functionality.
 
